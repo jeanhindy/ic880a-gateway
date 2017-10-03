@@ -119,7 +119,7 @@ popd
 
 # Build LoRa gateway app
 if [ ! -d lora_gateway ]; then
-    git clone -b legacy https://github.com/TheThingsNetwork/lora_gateway.git
+    git clone -b legacy https://github.com/jeanhindy/lora_gateway.git
     pushd lora_gateway
 else
     pushd lora_gateway
